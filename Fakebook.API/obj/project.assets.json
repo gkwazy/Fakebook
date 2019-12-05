@@ -1118,11 +1118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gkwaz\\Development\\personal\\fakebook\\Fakebook.API\\Fakebook.API.csproj",
+      "projectUniqueName": "C:\\Users\\gkwaz\\Development\\personal\\fakebook\\Fakebook\\Fakebook.API\\Fakebook.API.csproj",
       "projectName": "Fakebook.API",
-      "projectPath": "C:\\Users\\gkwaz\\Development\\personal\\fakebook\\Fakebook.API\\Fakebook.API.csproj",
+      "projectPath": "C:\\Users\\gkwaz\\Development\\personal\\fakebook\\Fakebook\\Fakebook.API\\Fakebook.API.csproj",
       "packagesPath": "C:\\Users\\gkwaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gkwaz\\Development\\personal\\fakebook\\Fakebook.API\\obj\\",
+      "outputPath": "C:\\Users\\gkwaz\\Development\\personal\\fakebook\\Fakebook\\Fakebook.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gkwaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
