@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Fakebook.API.Data;
 using Fakebook.API.Dtos;
 using Fakebook.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -26,6 +27,7 @@ namespace Fakebook.API.Controllers
         }
 
         [HttpPost("register")]
+        [AllowAnonymous]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
             userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
@@ -45,7 +47,8 @@ namespace Fakebook.API.Controllers
         }
 
         [HttpPost("login")]
-
+        [AllowAnonymous]
+        
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
             var userFormRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
