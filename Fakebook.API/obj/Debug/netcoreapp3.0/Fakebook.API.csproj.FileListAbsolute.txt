@@ -122,3 +122,4 @@ C:\Users\gkwaz\Development\personal\fakebook\Fakebook.API\bin\Debug\netcoreapp3.
 C:\Users\gkwaz\Development\personal\fakebook\Fakebook.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\gkwaz\Development\personal\fakebook\Fakebook.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
 C:\Users\gkwaz\Development\personal\fakebook\Fakebook.API\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gkwaz\Development\personal\fakebook\Fakebook\Fakebook.API\bin\Debug\netcoreapp3.0\Data\UserSeedData.json
