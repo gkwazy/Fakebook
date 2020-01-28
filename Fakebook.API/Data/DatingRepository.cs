@@ -30,14 +30,17 @@ namespace Fakebook.API.Data
             return user;
         }
 
-        public Task<IEnumerable<User>> GetUsers()
+        public  async Task<IEnumerable<User>> GetUsers()
         {
-            throw new System.NotImplementedException();
+            var users = await _context.Users.Include(p => p.Photos).ToListAsync();
+            
+            return users;
         }
 
-        public Task<bool> SaveAll()
+        public async Task<bool> SaveAll()
         {
-            throw new System.NotImplementedException();
+            return await _context.SaveChangesAsync() > 0;
+
         }
     }
 }
